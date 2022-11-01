@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#body-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50%;
+    background: linear-gradient(to left,#171616 16%, rgba(58,61,70,255)), linear-gradient(#50a1ce,#020822);
+}
+
+/*Body left*/
+.body-left {
+    width: 55%;
+    padding-right: 1.8em;
+    padding-left: 5em;
+}
+
+.body-left > .text {
+    color: rgb(181, 179, 179);
+    font-family: 'Lato', sans-serif;
+}
+
+.body-left > .text > .text1{
+    font-size: 2.7em;
+    padding-bottom: 1em; 
+
+}
+
+.body-left > .text > .text2{
+    font-size: 2.3em;
+    padding-bottom: 2em; 
+}
+
+
+.body-left > .bottom {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 0;
+}
+
+.body-left > .bottom  > .signupforfree {
+    padding: 0.7em;
+    font-weight: 600;
+    font-size: 1.8em;
+    color: black;
+    background-color: rgba(75,206,121,255);
+    border-radius: 0.3em;
+    float: left;
+    margin-right: 0.4em;
+}   
+
+.body-left > .bottom > .learnmore {
+    padding: 0.7em;
+    font-weight: 600;
+    font-size: 1.8em;
+    color: white;
+    background-color: black;
+    border-radius: 0.3em;
+    float: right;
+    margin-left: 0.4em;
+}   
+
+/*Body Right*/
+
+.body-right {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 45%;
+    padding-left: 2em;
+    padding-top: 3em;
+}
+
+.body-right img{
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: rgb(18, 18, 18);
+}
+
+.body-right > .codepenprojects {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    padding-left: 1em;
+}
+
+.body-right > .codepenprojects p {
+    margin-bottom: 0.3em;
+}
+
